@@ -10,17 +10,15 @@ logo: http://dishantrathi.tk/img/emojis/technologist.png
 resume: http://dishantrathi.tk/
 social:
   - title: email
-    url: mailto:dishantrathi97@gmail.com
-  - title: medium
-    url: https://medium.com/@dishantrathi
+    url: mailto:vishvamamin55@gmail.com
   - title: twitter
-    url: https://twitter.com/techiedishant
+    url: https://twitter.com/vishvamamin55
   - title: instagram
-    url: https://instagram.com/rathidishant
+    url: https://instagram.com/vishvam.amin
   - title: github
-    url: https://github.com/dishantrathi
+    url: https://github.com/aminvishvam
   - title: linkedin
-    url: https://www.linkedin.com/in/dishantrathi
+    url: https://www.linkedin.com/in/vishvam-amin-048671132/
 
 # Build settings
 markdown: kramdown
