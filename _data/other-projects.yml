@@ -1,0 +1,41 @@
+- name: SICCiPy
+  url: https://github.com/dishantrathi/SICCiPy#siccipy---simple-internet-connection-checker
+  code: https://github.com/dishantrathi/SICCiPy
+  description: A Simple Internet Connection Checker in python, wiz. used to check that, the machine on which the script is running has an Internet Connection or Not.
+  used:
+    - thing: Python
+
+- name: CryptoLivePrice
+  url: https://github.com/dishantrathi/Crypto-Currency-Live-Exchange-Rates/blob/master/README.md#crypto-currency-live-exchange-rates
+  code: https://github.com/dishantrathi/Crypto-Currency-Live-Exchange-Rates
+  description: This App gives live Exchange Rates of Crypto Currencies Like BTC, ETH, LTC etc. in respect to your desired required currency.
+  used:
+    - thing: Python
+    - thing: API 
+
+- name: Password Recovery Automation
+  url: https://github.com/dishantrathi/Password-Recovery-using-Python#password-recovery-using-python
+  code: https://github.com/dishantrathi/Password-Recovery-using-Python
+  description: A python script to automate gathering passwords and information from the current user and operating system.
+  used:
+    - thing: Python
+
+- name: Litresin.ml | URL Shortening Service
+  url: https://github.com/dishantrathi/litresin.ml#litresinml-%EF%B8%8F-url-shortening-django-powered--web-application
+  code: https://github.com/dishantrathi/litresin.ml
+  description: A python-django powered web application whch can shorten long url's in seconds, designed on Bootstrap 4.
+  used:
+    - thing: Python
+    - thing: Django
+    - thing: Bootstrap
+
+# - name: appname
+#   url: 
+#   description: 
+#   used:
+#   - thing: JavaScript
+#   - thing: CSS
+#   - thing: Handlebars
+#   - thing: Backbone
+#   - thing: Marionette
+#   - thing: Cordova
