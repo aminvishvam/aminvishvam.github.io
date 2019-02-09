@@ -1,10 +1,8 @@
 - name: The Sales Predition
   url: https://github.com/aminvishvam/the-sales-prediction-
   code: https://github.com/aminvishvam/the-sales-prediction-
-  description: It is a web application that provides the sales prediction nearby the shop location. It is the
-only application which will help the retailer to buy the product in a whole shell with high demand in
-sale.
-  used:
+  description: It is a web application that provides the sales prediction nearby the shop location. It is the only application which will help the retailer to buy the product in a whole shell with high demand in sale.
+  used: 
     - thing: Python
     - thing: Flask
 
