@@ -1,26 +1,24 @@
 # Site settings
-name: Dishant Rathi
-title: Dishant Rathi | 20, Freelancer Web Designer & Developer, Techno Geek & Blog Writer. Founder of The Computerist. He is a Programmer, Photography & Music Lover, Hacktivist, Author, Geeky about Technology Stuff.
-description:  20, Freelancer Web Designer & Developer, Techno Geek & Blog Writer. Founder of The Computerist. He is a Programmer, Photography & Music Lover, Hacktivist, Author, Geeky about Technology Stuff.
-url: http://dishantrathi.tk/
+name: Amin Vishvam
+title: Amin Vishvam | 20, AI Enthusiast, Future Data scientist, Techno savvy.
+description:  20, AI Enthusiast, Future Data scientist, Techno savvy.
+url: http://aminvishvam.tk/
 baseurl: ""
-email: dishantrathi97@gmail.com
+email: vishvamamin55@gmail.com
 cover: http://dishantrathi.tk/img/og.png
 logo: http://dishantrathi.tk/img/emojis/technologist.png
-resume: http://dishantrathi.tk/
+resume: http://aminvishvam.tk/
 social:
   - title: email
-    url: mailto:dishantrathi97@gmail.com
-  - title: medium
-    url: https://medium.com/@dishantrathi
+    url: mailto:vishvamamin@gmail.com
   - title: twitter
-    url: https://twitter.com/techiedishant
+    url: https://twitter.com/vishvamamin55
   - title: instagram
-    url: https://instagram.com/rathidishant
+    url: https://instagram.com/vishvam.amin
   - title: github
-    url: https://github.com/dishantrathi
+    url: https://github.com/aminvishvam
   - title: linkedin
-    url: https://www.linkedin.com/in/dishantrathi
+    url: https://www.linkedin.com/in/vishvam-amin-048671132/
 
 # Build settings
 markdown: kramdown
