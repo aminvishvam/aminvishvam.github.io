@@ -1,13 +1,13 @@
 # Site settings
-name: Dishant Rathi
-title: Dishant Rathi | 20, Freelancer Web Designer & Developer, Techno Geek & Blog Writer. Founder of The Computerist. He is a Programmer, Photography & Music Lover, Hacktivist, Author, Geeky about Technology Stuff.
-description:  20, Freelancer Web Designer & Developer, Techno Geek & Blog Writer. Founder of The Computerist. He is a Programmer, Photography & Music Lover, Hacktivist, Author, Geeky about Technology Stuff.
-url: http://dishantrathi.tk/
+name: Amin Vishvam
+title: Amin Vishvam | 20, AI Enthusiast, Future Data scientist, Techno savvy.
+description:  20, AI Enthusiast, Future Data scientist, Techno savvy.
+url: http://aminvishvam.tk/
 baseurl: ""
-email: dishantrathi97@gmail.com
+email: vishvamamin55@gmail.com
 cover: http://dishantrathi.tk/img/og.png
 logo: http://dishantrathi.tk/img/emojis/technologist.png
-resume: http://dishantrathi.tk/
+resume: http://aminvishvam.tk/
 social:
   - title: email
     url: mailto:vishvamamin55@gmail.com
