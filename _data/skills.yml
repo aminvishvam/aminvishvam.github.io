@@ -6,6 +6,7 @@ languages:
   - item: CSS
   - item: Java
   - item: SQL
+  - item: C#
 
 frameworks:
   - item: Data Structures
