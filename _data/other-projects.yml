@@ -1,33 +1,41 @@
+- name: Review My agent
+  url: https://reviewmyagent.ca/#/home
+  code: https://reviewmyagent.ca/#/home
+  description: This is the project of my company that I am working right-now.
+  used:
+    - thing: Angular
+    - thing: Material UI
+
+- name: Movie Application
+  url: https://movie-a.netlify.app/
+  code: https://github.com/aminvishvam/The-Movie-Application
+  description: This is the movie application made for the practice and learn more about the react and styled components.
+  used:
+    - thing: React
+    - thing: ES6
+    - thing: Styled-components
+    - thing: API
+
+- name: Hand Detection
+  url: https://github.com/aminvishvam/HandDetectionUsingTensorflowjs
+  code: https://github.com/aminvishvam/HandDetectionUsingTensorflowjs
+  description: This is the project to learn more about machine learning in world of JavaScript
+  used:
+    - thing: Tensorflow.js
+    - thing: ES6
+    - thing: Machine Learning
+    - thing: Mobile net architecture
+
 - name: The Sales Predition
   url: https://github.com/aminvishvam/the-sales-prediction-
   code: https://github.com/aminvishvam/the-sales-prediction-
   description: It is a web application that provides the sales prediction nearby the shop location. It is the only application which will help the retailer to buy the product in a whole shell with high demand in sale.
-  used: 
+  used:
     - thing: Python
     - thing: Flask
 
 - name: Vehicle details with barcode
-  #url: https://github.com/dishantrathi/Crypto-Currency-Live-Exchange-Rates/blob/master/README.md#crypto-currency-live-exchange-rates
-  #code: https://github.com/dishantrathi/Crypto-Currency-Live-Exchange-Rates
   description: It will show the vehicle and owner details with barcode on number plate. It is fine management project.
-  #used:
-  #  - thing: Python
-  #  - thing: API
 
 - name: Bus route suggestion system
-  #url: https://github.com/dishantrathi/Password-Recovery-using-Python#password-recovery-using-python
-  #code: https://github.com/dishantrathi/Password-Recovery-using-Python
   description: The bus ticket will show the whole route of your journey.
-  #used:
-  #  - thing: Python
-
-# - name: appname
-#   url:
-#   description:
-#   used:
-#   - thing: JavaScript
-#   - thing: CSS
-#   - thing: Handlebars
-#   - thing: Backbone
-#   - thing: Marionette
-#   - thing: Cordova
