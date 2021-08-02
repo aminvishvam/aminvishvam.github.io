@@ -33,9 +33,8 @@
   used:
     - thing: Python
     - thing: Flask
+# - name: Vehicle details with barcode
+#   description: It will show the vehicle and owner details with barcode on number plate. It is fine management project.
 
-- name: Vehicle details with barcode
-  description: It will show the vehicle and owner details with barcode on number plate. It is fine management project.
-
-- name: Bus route suggestion system
-  description: The bus ticket will show the whole route of your journey.
+# - name: Bus route suggestion system
+#   description: The bus ticket will show the whole route of your journey.
