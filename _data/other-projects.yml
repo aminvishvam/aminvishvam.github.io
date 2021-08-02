@@ -5,6 +5,8 @@
   used:
     - thing: Angular
     - thing: Material UI
+    - thing: TypeScript
+    - thing: SASS
 
 - name: Movie Application
   url: https://movie-a.netlify.app/
@@ -24,7 +26,16 @@
     - thing: Tensorflow.js
     - thing: ES6
     - thing: Machine Learning
+    - thing: Deep learning
     - thing: Mobile net architecture
+
+- name: React Todo
+  url: https://github.com/aminvishvam/React-todo
+  code: https://github.com/aminvishvam/React-todo
+  description: This is todo application with react and react hooks for the practice.
+  used:
+    - thing: React
+    - thing: ES6
 
 - name: The Sales Predition
   url: https://github.com/aminvishvam/the-sales-prediction-
@@ -33,6 +44,7 @@
   used:
     - thing: Python
     - thing: Flask
+    - thing: Machine Learning
 # - name: Vehicle details with barcode
 #   description: It will show the vehicle and owner details with barcode on number plate. It is fine management project.
 
