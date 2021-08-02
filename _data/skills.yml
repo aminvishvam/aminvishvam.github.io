@@ -1,41 +1,43 @@
 languages:
   - item: Python
-  - item: C Language
-  - item: CPP
-  - item: HTML 5
-  - item: CSS
-  - item: Java
-  - item: SQL
+  - item: C++
+  - item: JavaScript
+  - item: TypeScript
+  - item: PHP
+  - item: Dot Net
   - item: C#
 
 frameworks:
-  - item: Data Structures
-  - item: Algorithm Design
-  - item: Computer Networks
-  - item: Cyber Security
-  - item: Data Analysis
-  - item: SEO Analysis
-  - item: Wordpress Dev
-  - item: Computation Theory
-  - item: System Programming
-  - item: Software Testing
+  - item: React(Library)
+  - item: Angular
+  - item: HTML5
+  - item: CSS/SASS
+  - item: AJAX
+  - item: JQuery
+  - item: JSON
+  - item: Database
+  - item: MongoDb
+  - item: Mysql
+  - item: Django/Flask
 
 tools:
-  - item: MongoDB
-  - item: MySQL
   - item: Visual Studio Code
   - item: XAMPP/MAMP
   - item: Bash
-  - item: Git & Github
+  - item: Github & GitLab
   - item: Chrome DevTools
   - item: Wordpress
   - item: Atom
+  - item: Postman
+  - item: IntelliJ
+  - item: Android Studio
+  - item: React Development Tool
 
 design:
   - item: Artificial Intelligence
   - item: Machine Learning
   - item: Deep Learning
-  - item: django
-  - item: flask
+  - item: Algorithm design
+  - item: Data Analytics
   - item: Python Web Dev'nt
-  - item: Big Data Analysis
+  - item: ML technologies
