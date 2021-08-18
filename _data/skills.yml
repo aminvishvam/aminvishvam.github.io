@@ -10,6 +10,7 @@ languages:
 frameworks:
   - item: React(Library)
   - item: Angular
+  - item: Next.js
   - item: HTML5
   - item: CSS/SASS
   - item: AJAX
