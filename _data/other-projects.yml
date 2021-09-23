@@ -7,6 +7,16 @@
     - thing: Material UI
     - thing: TypeScript
     - thing: SASS
+    - name: Review My agent
+
+- name: Company Website
+  description: This is website with the use of React and Gatsby.
+  used:
+    - thing: React
+    - thing: Material UI
+    - thing: Gatsby
+    - thing: Graphql
+    
 
 - name: Movie Application
   url: https://movie-a.netlify.app/
@@ -36,6 +46,7 @@
   used:
     - thing: React
     - thing: ES6
+    - thing: React-Hooks
 
 - name: The Sales Predition
   url: https://github.com/aminvishvam/the-sales-prediction-
