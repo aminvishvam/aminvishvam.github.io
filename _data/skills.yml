@@ -20,6 +20,7 @@ frameworks:
   - item: MongoDb
   - item: Mysql
   - item: Django/Flask
+  - item: Gatsby
 
 tools:
   - item: Visual Studio Code
