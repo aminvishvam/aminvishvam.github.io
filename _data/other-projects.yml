@@ -1,3 +1,12 @@
+- name: Company Website]
+  url: https://www.techrangle.com/
+  description: This is website with the use of React and Gatsby.
+  used:
+    - thing: React
+    - thing: Gatsby
+    - thing: Material UI
+    - thing: Graphql
+
 - name: Review My agent
   url: https://reviewmyagent.ca/#/home
   code: https://reviewmyagent.ca/#/home
@@ -7,16 +16,6 @@
     - thing: Material UI
     - thing: TypeScript
     - thing: SASS
-    - name: Review My agent
-
-- name: Company Website
-  description: This is website with the use of React and Gatsby.
-  used:
-    - thing: React
-    - thing: Material UI
-    - thing: Gatsby
-    - thing: Graphql
-    
 
 - name: Movie Application
   url: https://movie-a.netlify.app/
