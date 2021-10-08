@@ -5,6 +5,8 @@
   used:
     - thing: React
     - thing: Material UI
+    - thing: Redux React
+    - thing: Bootstrap
 
 - name: Review My agent
   url: https://reviewmyagent.ca/#/home
