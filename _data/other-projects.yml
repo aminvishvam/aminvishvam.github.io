@@ -1,11 +1,10 @@
 - name: Company Website
-  url: https://www.techrangle.com/
-  description: This is website with the use of React and Gatsby.
+  url: https://heroicminds.live/
+  code: https://heroicminds.live/
+  description: This is website with the use of React.
   used:
     - thing: React
-    - thing: Gatsby
     - thing: Material UI
-    - thing: Graphql
 
 - name: Review My agent
   url: https://reviewmyagent.ca/#/home
