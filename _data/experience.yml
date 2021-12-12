@@ -1,14 +1,16 @@
+- company: TechRangle Inc
+  url: https://www.techrangle.com/
+  time: May 2021 - present
+  position: Front End Developer
+  description: Recently, working on major bank project with the team to develop an web application in next JS. The designing of the application is in tailwindCSS and styled components.Making a whole application AA-level accessible for disabled people to use a website. For that, we used the tools like NVDA, AsLint, AXE developer tools, etc. Writing integration tests for the application in JEST and React testing library. Writing code to collect data for google analytics in application with the help of react-gtm-module.
+And, debugging code in Google tag manager. Designed a Full Stack web application in angular frame work with agile team. And made a use of REST API to work with the Data. Made the reusable components, which results in less code. With the use of angular material UI and SASS designed the website and made it scalable.Working on the website which build with Gatsby frame-work. Also for the backend worked with the strapi and graphql.
+
 - company: Heroic Mind
   url: https://heroicminds.live/
   time: Sep 2021 - present
-  position: Front End Developer (Reactjs)
-
-- company: TechRangle Inc
-  url: https://www.techrangle.com/
-  time: May 2021 - Oct 2021
-  position: Front End Developer Intern
+  position: React Developer
 
 - company: Innoventa
   url: http://www.innoventaa.in/
   time: Jan 2019 - July 2019
-  position: Machine Learning Intern
+  position: Full Stack developer
