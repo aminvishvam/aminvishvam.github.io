@@ -1,11 +1,16 @@
+- company: LexisNexis
+  url: https://www.lexisnexis.ca/en-ca/home.page
+  time: Jan 2022 - present
+  position: Software Developer
+
 - company: TechRangle Inc
   url: https://www.techrangle.com/
-  time: May 2021 - present
+  time: May 2021 - Jan 2022
   position: Front End Developer
 
 - company: Heroic Mind
   url: https://heroicminds.live/
-  time: Sep 2021 - present
+  time: Sep 2021 - Nov 2021
   position: React Developer
 
 - company: Innoventa
