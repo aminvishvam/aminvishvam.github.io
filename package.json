@@ -9,7 +9,7 @@
   "author": "Dishant Rathi",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.29.1",
     "eslint-config-starry": "2.0.1",
     "eslint-plugin-starry": "2.0.1",
     "gulp": "3.9.1",
