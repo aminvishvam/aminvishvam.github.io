@@ -13,7 +13,7 @@
   <meta property="og:url" content="https://example.com/" />
   <meta property="og:image" content="/og-image.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="theme-color" content="#0d1117" />
+  <meta name="theme-color" content="#000000" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'><circle cx='60' cy='60' r='60' fill='%230d1117'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='62' font-family='Arial' fill='%23fff'>V</text></svg>">
   <link rel="stylesheet" href="styles.css" />
   <script>document.documentElement.classList.remove('no-js');</script>
@@ -25,9 +25,10 @@
     <div class="brand">VA</div>
     <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu" id="navToggle" title="Menu">☰</button>
     <ul class="nav__menu" id="navMenu">
+      <li><a href="#summary">Summary</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a class="btn btn--sm" href="VishvamAmin.pdf" target="_blank" rel="noopener" title="Open Resume">Resume</a></li>
@@ -38,11 +39,11 @@
 <main id="main" tabindex="-1">
   <section class="hero" aria-label="Intro">
     <div class="hero__inner">
-      <h1 class="hero__title">Hi, I'm <span class="gradient-text">Vishvam Amin</span>.</h1>
-      <p class="hero__subtitle">Software Developer crafting reliable, human‑centered digital products.</p>
-      <p class="hero__blurb">I enjoy building performant, accessible, and maintainable web applications. Below is a selection of my work and experience. Always curious, always shipping.</p>
+  <h1 class="hero__title">Hi, I'm <span class="gradient-text">Vishvam Amin</span>.</h1>
+  <p class="hero__subtitle">Full‑stack & Microsoft 365 Engineer • Micro‑frontends • Cloud • AI augmentation.</p>
+  <p class="hero__blurb">I design and ship scalable, secure, and maintainable web platforms (MERN / MEAN / micro‑frontends) and productivity solutions inside the Microsoft 365 ecosystem—lately integrating LLMs to streamline legal workflows and developer experience.</p>
       <div class="hero__actions">
-        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn" href="#achievements">View Achievements</a>
         <a class="btn btn--alt" href="mailto:vishvamamin55@gmail.com">Get in Touch</a>
       </div>
       <div class="hero__links" aria-label="External Links">
@@ -54,26 +55,42 @@
     <div class="scroll-indicator" aria-hidden="true">Scroll ↓</div>
   </section>
 
-  <section id="about" class="section">
+  <section id="summary" class="section">
     <div class="section__header">
-      <h2>About</h2>
+      <h2>Professional Summary</h2>
       <div class="section__line"></div>
     </div>
     <div class="about__grid">
-      <div>
-        <p>I'm a software developer passionate about elegant solutions that balance user experience, performance, and clean architecture. I value thoughtful collaboration, strong testing practices, and continuous learning.</p>
-        <p>This site is intentionally lightweight: no frameworks, just semantic HTML, modern CSS, and a sprinkle of vanilla JavaScript for interactivity.</p>
-        <p><strong>Currently:</strong> Seeking opportunities to contribute to impactful products. Previously contributed to legal tech tooling (LexisNexis related products) and other internal tooling (placeholder — adjust with real data).</p>
+      <div class="pro-summary">
+        <p><strong>Software Engineer (6+ yrs)</strong> specializing in full‑stack delivery (MERN / MEAN), Microsoft 365 add‑ins (Teams, Outlook, Word), and cloud‑native architectures on AWS & Azure. I build resilient micro‑frontend platforms (18+ MFEs) and integrate AI / LLM capabilities to elevate legal authoring, review, and DevEx inside enterprise workflows.</p>
+        <ul class="summary-points">
+          <li><strong>Stack Depth:</strong> React, AngularJS, Next.js, Node.js, FastAPI, ASP.NET Core, Django.</li>
+          <li><strong>Micro‑frontends:</strong> Webpack module federation, orchestrated CI/CD via Jenkins → S3; unified auth & shared design system.</li>
+          <li><strong>Microsoft 365:</strong> Teams bots & message extensions, Office.js add‑ins (Word / Outlook new & classic), Graph API integrations, AAD app & delegated permissions, WAM OIDC flows, SharePoint permissions modeling.</li>
+          <li><strong>Cloud & Data:</strong> AWS (EC2, Lambda, S3, DynamoDB) & Azure (Functions, App Services, Bot Service); Supabase (DB+Auth), Redis caching, secure APIs with JWT/OAuth2.</li>
+          <li><strong>DevOps & Infra:</strong> Docker, Podman, Kubernetes, Terraform, GitHub Actions, Azure DevOps, Jenkins; automated compliance readiness (SOC 2 awareness).</li>
+          <li><strong>Architecture & Quality:</strong> API layering, middleware auth orchestration, performance tuning, accessibility, test strategy.</li>
+          <li><strong>AI Enablement:</strong> Built internal add‑in to refine Azure DevOps user stories and auto‑review PRs against project guidelines using LLM context.</li>
+        </ul>
+        <p class="cta-inline">Always exploring modern patterns, scalable design, and human‑centered developer tooling.</p>
       </div>
       <aside class="about__aside">
         <ul class="key-facts">
-          <li><span>Location:</span> <strong>(Update Location)</strong></li>
-          <li><span>Focus Areas:</span> Web Apps, Frontend Architecture, DX</li>
-          <li><span>Interests:</span> Accessibility, Performance, Clean Design</li>
+          <li><span>Location:</span> <strong>Open / Remote</strong></li>
+          <li><span>Focus:</span> Micro‑FE, M365, Cloud, AI</li>
+          <li><span>Strengths:</span> Architecture, DX, Perf</li>
           <li><span>Email:</span> <a href="mailto:vishvamamin55@gmail.com">vishvamamin55@gmail.com</a></li>
         </ul>
       </aside>
     </div>
+  </section>
+
+  <section id="about" class="section section--alt">
+    <div class="section__header">
+      <h2>About</h2>
+      <div class="section__line"></div>
+    </div>
+    <p class="about-text">I value thoughtful collaboration, clarity, and incremental delivery. I like turning complex integration surfaces (cloud + Microsoft 365 + AI) into cohesive product experiences with strong guardrails and measurable outcomes. This site stays minimal: semantic HTML + modern CSS + a sprinkle of JS for progressive enhancement.</p>
   </section>
 
   <section id="experience" class="section">
@@ -84,74 +101,83 @@
     <div class="timeline" aria-label="Professional Experience">
       <article class="timeline__item fade-in">
         <header class="timeline__item-header">
-          <h3 class="timeline__role">Software Developer <span class="timeline__company">LexisNexis (Placeholder)</span></h3>
-          <span class="timeline__date">(Dates)</span>
+          <h3 class="timeline__role">Software Engineer II <span class="timeline__company">LexisNexis</span></h3>
+          <span class="timeline__date">Jan 2022 – Present · Toronto, Canada</span>
         </header>
         <ul class="timeline__bullets">
-          <li>Worked on products such as Lexis Create Plus / Lexis Connect (update with accurate scope / stack).</li>
-          <li>Improved reliability & performance by implementing (add concrete achievements).</li>
-          <li>Collaborated cross‑functionally with design & product to refine features.</li>
+          <li><strong>Lexis Create & Plus AI:</strong> Lead/frontline contributor across 18+ micro‑frontends (React, AngularJS, TypeScript, ASP.NET Core APIs) with shared design system + auth middleware.</li>
+          <li>Integrated Generative AI (RAG via LangChain + proprietary LLM) inside Word & Outlook add‑ins: multi‑document ingestion, session tracking, vector retrieval, attachment Q&A & obligation extraction.</li>
+          <li>Architected Node + FastAPI services supporting AI flows; secured AAD permissions & WAM OIDC flows; implemented feature gating & safe rollout patterns.</li>
+          <li>Reduced duplicate UI logic ~30% & feature delivery time ~20% by creating cross‑suite shared component libraries (Storybook + Fluent UI v9 migration).</li>
+          <li>Implemented Husky + quality gates; enforced accessibility & performance budgets across MFEs.</li>
+          <li>Built MCP server to parse Storybook stories & accelerate micro‑frontend ramp‑up with AI assisted tooling.</li>
+          <li><strong>Platform Ops:</strong> AWS S3 static hosting + ECS/Lambda for services, blue‑green + canary deployments, automated rollback & failover strategies.</li>
+          <li>Devised CI/CD optimizations for lean release windows; zero‑downtime publish & rapid rollback.</li>
+          <li>Mentored interns & facilitated architectural reviews (scalability, resilience, DX).</li>
         </ul>
-        <footer class="timeline__tech">Tech: <span>JavaScript, TypeScript, React (if applicable), Node, REST APIs, Testing</span></footer>
+        <footer class="timeline__tech">Tech: <span>React, AngularJS, TypeScript, ASP.NET Core, Node.js, FastAPI, LangChain, Fluent UI, Storybook, Webpack Module Federation, AWS (S3, ECS, Lambda, CloudFront, API Gateway, IAM), AAD, WAM OIDC, Redis, Terraform, Jenkins, CI/CD</span></footer>
       </article>
       <article class="timeline__item fade-in">
         <header class="timeline__item-header">
-          <h3 class="timeline__role">Previous Role (Placeholder)</h3>
-          <span class="timeline__date">(Dates)</span>
+          <h3 class="timeline__role">Team Lead / Engineer – Lexis Connect <span class="timeline__company">LexisNexis</span></h3>
+          <span class="timeline__date">Overlap • 2022 – Present</span>
         </header>
         <ul class="timeline__bullets">
-          <li>Describe impact and measurable outcomes.</li>
-          <li>Highlight leadership, optimization, or collaboration.</li>
-          <li>Mention tools / frameworks used.</li>
+          <li>Engineered Microsoft Teams matter management add‑in (React, TypeScript, ASP.NET) to reduce email load & centralize legal collaboration.</li>
+          <li>Implemented RBAC & granular SharePoint / Teams permission orchestration; integrated Lexis AI MFE post decoupling from Teams Toolkit.</li>
+          <li>Designed feature flag + dark launch system (Azure App Services + Terraform) enabling safer staged rollouts (≈15% faster releases).</li>
+          <li>Added chat backup & PDF / analytics export (ASPOSE) mitigating retention auto‑deletes for key client.</li>
+          <li>Boosted large dataset view performance (pagination + Redis caching + Graph API query tuning) cutting heavy page load times ≈50% and accelerating user search ≈70%.</li>
+          <li>Migrated UI to Fluent UI v9; delivered adaptive theming (desktop + mobile) for Microsoft Store listing & SOC 2 readiness.</li>
         </ul>
-        <footer class="timeline__tech">Tech: <span>List tech here</span></footer>
+        <footer class="timeline__tech">Tech: <span>React, TypeScript, ASP.NET, Teams Toolkit, Fluent UI v9, Azure (App Services, AAD, Functions, Terraform), SharePoint, Redis, Feature Flags, MS Graph API, ASPOSE</span></footer>
+      </article>
+      <article class="timeline__item fade-in">
+        <header class="timeline__item-header">
+          <h3 class="timeline__role">Front‑End Developer <span class="timeline__company">Techrangle Inc</span></h3>
+          <span class="timeline__date">May 2021 – Jan 2022 · Toronto, Canada</span>
+        </header>
+        <ul class="timeline__bullets">
+          <li>Delivered SCENE+ bank rewards web app (Next.js + Tailwind + styled‑components) with multi‑language CMS driven UI.</li>
+          <li>Achieved AA accessibility (NVDA, AXE, AsLint) via semantic structure, color contrast & keyboard flows.</li>
+          <li>Implemented analytics instrumentation (react‑gtm‑module + GTM) & integration tests (Jest + RTL).</li>
+          <li>Built Angular full‑stack app (REST API integration, reusable component library, Angular Material + SASS) reducing code duplication.</li>
+          <li>Maintained Gatsby + Strapi + GraphQL site; optimized content workflows.</li>
+        </ul>
+        <footer class="timeline__tech">Tech: <span>Next.js, React, Tailwind, styled‑components, Redux, Jest, RTL, Angular, Angular Material, SASS, Gatsby, Strapi, GraphQL, Accessibility Tooling</span></footer>
       </article>
     </div>
   </section>
 
-  <section id="projects" class="section">
+  <section id="achievements" class="section">
     <div class="section__header">
-      <h2>Selected Projects</h2>
+      <h2>Technical Achievements</h2>
       <div class="section__line"></div>
     </div>
-    <div class="projects__grid">
-      <article class="project-card fade-in">
-        <div class="project-card__top">
-          <h3 class="project-card__title">Project Name</h3>
-          <div class="project-card__links">
-            <a href="#" aria-label="Source Code" title="Source Code">Code</a>
-            <a href="#" aria-label="Live Demo" title="Live Demo">Demo</a>
-          </div>
-        </div>
-        <p class="project-card__desc">Brief summary of what this project does, the problem it solves, or what you explored.</p>
-        <ul class="project-card__tags">
-          <li>HTML</li><li>CSS</li><li>JS</li>
+    <div class="achievements__list">
+      <article class="achievement fade-in">
+        <h3 class="achievement__title">Hackathon – 1st Place (LexisNexis)</h3>
+        <p class="achievement__meta">Generative AI Azure DevOps Extension · 48 hr build</p>
+        <p class="achievement__desc">Won 1st place for delivering an Azure DevOps extension that enhances user stories and auto‑comments on pull requests using project guideline analysis. Implemented a rapid RAG pipeline and local LLM tooling for secure, offline iteration.</p>
+        <ul class="achievement__bullets">
+          <li>RAG pipeline (vector retrieval + prompt orchestration).</li>
+          <li>FastAPI (Python) service layer & LangChain orchestration.</li>
+          <li>Local OLLAMA models in Podman containers for low‑latency inference.</li>
+          <li>Automated PR review: guideline PDF parsing + LLM summarization & suggestion engine.</li>
         </ul>
+        <footer class="achievement__tech">Tech: FastAPI, LangChain, OLLAMA (Podman), Vector Store, Azure DevOps REST</footer>
       </article>
-      <article class="project-card fade-in">
-        <div class="project-card__top">
-          <h3 class="project-card__title">Another Project</h3>
-          <div class="project-card__links">
-            <a href="#" aria-label="Source Code">Code</a>
-          </div>
-        </div>
-        <p class="project-card__desc">Add 1–2 concise sentences describing purpose, role, and notable implementation detail.</p>
-        <ul class="project-card__tags">
-          <li>API</li><li>Performance</li><li>Testing</li>
+      <article class="achievement fade-in">
+        <h3 class="achievement__title">MCP Storybook Component Server</h3>
+        <p class="achievement__meta">Accelerated Multi‑Frontend Refactors</p>
+        <p class="achievement__desc">Built a Model Context Protocol (MCP) server to expose internal Storybook component metadata to AI assistants, enabling high‑confidence automated refactors across numerous micro‑frontends.</p>
+        <ul class="achievement__bullets">
+          <li>Recursive Storybook scan & indexing of stories for component discovery.</li>
+          <li>Extracted prop signatures & style contracts for similarity & diff scoring.</li>
+          <li>Repo component scan compares live usages vs. canonical definitions to surface drift %.</li>
+          <li>Improves upgrade velocity & reduces manual audit effort.</li>
         </ul>
-      </article>
-      <article class="project-card project-card--wide fade-in">
-        <div class="project-card__top">
-          <h3 class="project-card__title">Featured / Case Study</h3>
-          <div class="project-card__links">
-            <a href="#" aria-label="Source Code">Code</a>
-            <a href="#" aria-label="Case Study">Case Study</a>
-          </div>
-        </div>
-        <p class="project-card__desc">Use a wider card for a project you want to emphasize — maybe with a short case study you can add later.</p>
-        <ul class="project-card__tags">
-          <li>UX</li><li>Optimization</li><li>Metrics</li>
-        </ul>
+        <footer class="achievement__tech">Tech: Node.js, MCP, Storybook, TypeScript, AST Parsing</footer>
       </article>
     </div>
   </section>
@@ -161,32 +187,71 @@
       <h2>Skills & Tools</h2>
       <div class="section__line"></div>
     </div>
-    <div class="skills__wrap fade-in">
-      <div class="chip-group" aria-label="Primary Languages">
-        <h3 class="chip-group__title">Languages</h3>
+    <div class="skills__wrap fade-in" aria-label="Technical Skill Categories">
+      <div class="chip-group">
+        <h3 class="chip-group__title">Frontend</h3>
         <ul class="chips">
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>(Add others)</li>
+          <li>React</li><li>Next.js</li><li>Vue.js</li><li>TypeScript</li><li>HTML5</li><li>CSS3</li><li>Fluent UI</li><li>Material UI</li><li>Tailwind</li><li>Bootstrap</li><li>Redux</li><li>Storybook</li><li>Office.js</li><li>Micro‑FE</li><li>Webpack</li>
         </ul>
       </div>
-      <div class="chip-group" aria-label="Frameworks & Libraries">
-        <h3 class="chip-group__title">Frameworks</h3>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Backend & APIs</h3>
         <ul class="chips">
-          <li>React</li>
-          <li>Node.js</li>
-          <li>(Add more)</li>
+          <li>Node.js</li><li>Express</li><li>Python</li><li>FastAPI</li><li>Flask</li><li>Django</li><li>REST</li><li>GraphQL</li><li>LangChain</li><li>ASPOSE</li><li>JWT</li><li>WAM OIDC</li><li>Supabase</li><li>Redis</li>
         </ul>
       </div>
-      <div class="chip-group" aria-label="Tooling & Platforms">
-        <h3 class="chip-group__title">Tooling</h3>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Databases</h3>
         <ul class="chips">
-          <li>Git</li>
-          <li>CI/CD</li>
-          <li>Testing</li>
-          <li>Accessibility</li>
+          <li>MongoDB</li><li>PostgreSQL</li><li>MySQL</li><li>SQL Server</li><li>Oracle DB</li><li>Supabase (Pg)</li><li>DynamoDB</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Cloud (AWS)</h3>
+        <ul class="chips">
+          <li>EC2</li><li>ECS</li><li>S3</li><li>CloudFront</li><li>Amplify</li><li>Lambda</li><li>API Gateway</li><li>IAM</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Cloud (Azure)</h3>
+        <ul class="chips">
+          <li>App Services</li><li>Functions</li><li>Azure SQL</li><li>Bot Service</li><li>Virtual Machines</li><li>App Registrations</li><li>AAD</li><li>Delegated Perms</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Auth & Security</h3>
+        <ul class="chips">
+          <li>OAuth2</li><li>JWT</li><li>RBAC</li><li>Supabase Auth</li><li>WAM OIDC</li><li>MS Graph</li><li>Azure AD Flows</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">DevOps & Infra</h3>
+        <ul class="chips">
+          <li>Git</li><li>Docker</li><li>Podman</li><li>Jenkins</li><li>Azure DevOps</li><li>Terraform</li><li>CI/CD</li><li>Redis Cache</li><li>Kubernetes</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Testing & Quality</h3>
+        <ul class="chips">
+          <li>Jest</li><li>RTL</li><li>Accessibility</li><li>Storybook</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">AI & Productivity</h3>
+        <ul class="chips">
+          <li>LLM Integrations</li><li>LangChain</li><li>Ollama</li><li>Automation</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Tooling & Collab</h3>
+        <ul class="chips">
+          <li>Jira</li><li>Confluence</li><li>Postman</li><li>MS Graph Explorer</li><li>NVDA</li><li>AXE</li><li>AsLint</li>
+        </ul>
+      </div>
+      <div class="chip-group">
+        <h3 class="chip-group__title">Compliance</h3>
+        <ul class="chips">
+          <li>SOC 2</li><li>Secure Dev</li>
         </ul>
       </div>
     </div>
