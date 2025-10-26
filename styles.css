@@ -28,7 +28,9 @@ button { font: inherit; cursor: pointer; }
   --radius: 10px;
   --shadow: 0 4px 14px -4px rgba(0,0,0,.15),0 2px 4px -2px rgba(0,0,0,.08);
   --transition: .35s cubic-bezier(.16,.8,.24,1);
-  --container: 1160px;
+  --container: 1200px;
+  --container-narrow: 900px;
+  --container-wide: 1400px;
 }
 [data-theme='dark'] {
   --bg: #000000;
@@ -76,18 +78,19 @@ button { font: inherit; cursor: pointer; }
 
 /* ===== SECTIONS ===== */
 .section { padding: 4.5rem 1.25rem; }
+.section > * { max-width: var(--container); margin-left: auto; margin-right: auto; }
 .section__header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2.5rem; }
 .section__header h2 { font-size: 1.9rem; letter-spacing: -.5px; }
 .section__line { flex: 1; height: 2px; background: linear-gradient(90deg,var(--accent) 0,transparent 80%); }
 
 /* ===== ABOUT ===== */
-.about__grid { display: grid; gap: 2.4rem; grid-template-columns: minmax(0,1fr) 300px; align-items: start; }
+.about__grid { display: grid; gap: 2.4rem; grid-template-columns: minmax(0,1fr) 300px; align-items: start; max-width: var(--container); }
 .about__aside { background: var(--bg-alt); padding: 1.25rem 1.1rem; border: 1px solid var(--border); border-radius: var(--radius); font-size: .85rem; position: sticky; top: 5.8rem; }
 .key-facts { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .65rem; }
 .key-facts span { color: var(--text-dim); display: inline-block; min-width: 82px; }
 
 /* ===== TIMELINE ===== */
-.timeline { display: flex; flex-direction: column; gap: 2.75rem; position: relative; }
+.timeline { display: flex; flex-direction: column; gap: 2.75rem; position: relative; max-width: var(--container); }
 .timeline__item { background: var(--bg-alt); padding: 1.35rem 1.4rem 1.3rem; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); }
 .timeline__item-header { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: baseline; justify-content: space-between; }
 .timeline__role { font-size: 1.05rem; font-weight: 600; }
@@ -98,7 +101,7 @@ button { font: inherit; cursor: pointer; }
 .timeline__tech { font-size: .7rem; letter-spacing: 1.2px; text-transform: uppercase; color: var(--text-dim); }
 
 /* ===== PROJECTS ===== */
-.projects__grid { display: grid; gap: 1.9rem; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); }
+.projects__grid { display: grid; gap: 1.9rem; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); max-width: var(--container); }
 .project-card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.1rem 1.15rem; display: flex; flex-direction: column; gap: .75rem; position: relative; overflow: hidden; box-shadow: var(--shadow); }
 .project-card--wide { grid-column: span 2; }
 .project-card__top { display: flex; align-items: flex-start; justify-content: space-between; gap: .5rem; }
@@ -109,7 +112,7 @@ button { font: inherit; cursor: pointer; }
 .project-card__tags li { background: var(--text); color: var(--bg); font-size: .65rem; padding: .38rem .55rem .32rem; border-radius: 40px; letter-spacing: .5px; font-weight: 500; }
 
 /* ===== ACHIEVEMENTS ===== */
-.achievements__list { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit,minmax(340px,1fr)); }
+.achievements__list { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit,minmax(340px,1fr)); max-width: var(--container); }
 .achievement { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem 1.25rem 1.25rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: .85rem; }
 .achievement__title { font-size: 1.05rem; font-weight: 600; }
 .achievement__meta { font-size: .7rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-dim); }
@@ -120,7 +123,7 @@ button { font: inherit; cursor: pointer; }
 .achievement__tech { margin-top: .35rem; font-size: .65rem; letter-spacing: 1.2px; text-transform: uppercase; color: var(--text-dim); }
 
 /* ===== SKILLS ===== */
-.skills__wrap { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); }
+.skills__wrap { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); max-width: var(--container); }
 .chip-group__title { font-size: .8rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text); margin-bottom: .85rem; }
 .chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .55rem; }
 .chips li { background: var(--bg-alt); border: 1px solid var(--border); padding: .5rem .8rem .45rem; border-radius: 32px; font-size: .75rem; font-weight: 500; letter-spacing: .5px; transition: background var(--transition), color var(--transition); }
@@ -162,13 +165,66 @@ button { font: inherit; cursor: pointer; }
 }
 
 /* ===== SUMMARY / PRO SUMMARY ===== */
-.pro-summary { display: flex; flex-direction: column; gap: 1.15rem; }
+.pro-summary { display: flex; flex-direction: column; gap: 1.15rem; max-width: 100%; }
 .summary-points { list-style: none; padding: 0; margin: .5rem 0 0; display: flex; flex-direction: column; gap: .65rem; }
 .summary-points li { position: relative; padding-left: 1.2rem; line-height: 1.4; }
 .summary-points li::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--text); position: absolute; left: 0; top: .55rem; }
 .cta-inline { font-weight: 600; }
 .section--alt { background: var(--bg-alt); }
 .about-text { max-width: 880px; line-height: 1.55; }
+
+/* ===== LARGE SCREEN OPTIMIZATIONS ===== */
+@media (min-width: 1440px) {
+  .section { padding: 5.5rem 2rem; }
+  .hero { padding: 9rem 2rem 7rem; }
+
+  /* Limit grid columns on ultra-wide screens */
+  .skills__wrap {
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    max-width: var(--container-wide);
+  }
+
+  /* Limit achievements to 2 columns max on ultra-wide */
+  .achievements__list {
+    grid-template-columns: repeat(2,minmax(340px,1fr));
+    max-width: var(--container-wide);
+  }
+
+  /* Better spacing for timeline items */
+  .timeline { max-width: var(--container-wide); margin: 0 auto; }
+
+  /* Improve about grid spacing */
+  .about__grid {
+    gap: 3rem;
+    max-width: var(--container-wide);
+  }
+
+  /* Center narrow content better */
+  .about-text, .contact__inner, .hero__inner {
+    max-width: var(--container-narrow);
+  }
+}
+
+@media (min-width: 1920px) {
+  :root {
+    --container: 1400px;
+    --container-narrow: 1000px;
+    --container-wide: 1600px;
+  }
+
+  .section { padding: 6rem 3rem; }
+  .hero { padding: 10rem 3rem 8rem; }
+
+  /* Ensure skills don't exceed 5 columns */
+  .skills__wrap {
+    grid-template-columns: repeat(5,minmax(260px,1fr));
+  }
+
+  /* Keep achievements at 2 columns even on 4K */
+  .achievements__list {
+    grid-template-columns: repeat(2,minmax(400px,1fr));
+  }
+}
 
 /* ===== PREFERS REDUCED MOTION ===== */
 @media (prefers-reduced-motion: reduce) {
