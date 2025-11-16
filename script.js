@@ -77,4 +77,52 @@
       root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
     }
   });
+
+  // Add scroll-based header shadow
+  let lastScrollY = window.scrollY;
+  const header = document.querySelector('.site-header');
+
+  function updateHeaderOnScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > 50) {
+      header?.classList.add('scrolled');
+    } else {
+      header?.classList.remove('scrolled');
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener('scroll', updateHeaderOnScroll, { passive: true });
+
+  // Add typing effect to hero title (optional enhancement)
+  const heroTitle = document.querySelector('.hero__title');
+  if (heroTitle) {
+    heroTitle.style.opacity = '0';
+    setTimeout(() => {
+      heroTitle.style.transition = 'opacity 0.8s ease';
+      heroTitle.style.opacity = '1';
+    }, 100);
+  }
+
+  // Add stagger animation to hero elements
+  const heroElements = [
+    document.querySelector('.hero__subtitle'),
+    document.querySelector('.hero__blurb'),
+    document.querySelector('.hero__actions'),
+    document.querySelector('.hero__links')
+  ];
+
+  heroElements.forEach((el, index) => {
+    if (el) {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      setTimeout(() => {
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+      }, 200 + (index * 150));
+    }
+  });
 })();
